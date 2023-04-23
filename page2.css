@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerclass {
+    margin: 10px;
+    width: calc(100vw-20px);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8c6e2;
+    border-radius: 10px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: rgb(0, 185, 0);
+    padding: 15px 10px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(223, 217, 217);
+
+}
+.btn:hover{
+    box-shadow: 3px 7px 10px rgb(44, 44, 44);
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.text h2{
+    text-transform: uppercase;
+}
+
+.card p {
+    text-transform: capitalize;
+}
+.cont{
+    font-size: 70px;
+}
+/*announcement css*/
+
+.announce{
+    margin: 10px;
+    width: calc(100vw-20px);
+    height: 500px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c8e493;
+    border-radius: 10px;
+}
+.grid{
+    width:30%;
+
+}
+.grid img {
+    width: 100%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 25%;
+  
+}
+.write p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*cities css*/
+.cities{
+    margin: 10px;
+    width: calc(100vw-20px);
+    height: 350px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.cityname img{
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.cityname{
+    width:20%;
+}
+.name{
+    text-align:center;
+    font-size: 20px;
+    font-family: bolder;
+}
+.town{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}

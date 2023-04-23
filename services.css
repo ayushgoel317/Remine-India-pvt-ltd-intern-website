@@ -1,0 +1,43 @@
+.blog{
+    margin-top:100px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: oblique;
+    color:rgb(234, 28, 138);
+    text-shadow:1px 1px purple;
+}
+.subblog{
+  
+    display: flex;
+    padding:0px 30px;
+    justify-content: space-evenly;
+   
+}
+.blog1{
+    width:100%;
+    height:auto;
+}
+.blog2{
+    width:100%;
+    height:auto;
+}
+.blog1 img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.subpara{
+    align-items:center;
+    font-size: 20px;
+    padding:10px 10px;
+    justify-content: center;
+    
+    
+}

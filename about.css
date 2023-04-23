@@ -1,0 +1,62 @@
+
+.t1{
+   
+    margin-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    background-color:rgb(145, 228, 181);
+    font-style:oblique;
+    
+}
+.main{
+    font-size: 25px;
+    font-style:oblique;
+    justify-items: center;
+    padding:20px 70px;
+   
+}
+.head{
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+    background-color: rgb(230, 118, 118);
+    padding:10px;
+    
+}
+.subhead{
+    background-color:rgb(196, 254, 254);
+}
+.mainhead{
+    background-color:rgb(230, 216, 216);
+}
+
+
+/*our mission css*/
+.lowhead{
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+    background-color:rgb(103, 103, 228);
+    color:white;
+    padding:10px;
+}
+.lowheadcontent{
+    background-color:rgb(255, 206, 255);
+    display: flex;
+}
+.main1{
+    font-size: 25px;
+    font-style:oblique;
+    justify-items: center;
+    padding:20px 70px;
+}
+.let1{
+    width: 100%;
+    height:auto;
+}
+.photo{
+    
+   
+    padding:0px 200px;
+}
